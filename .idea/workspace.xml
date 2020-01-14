@@ -1,17 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="" />
+    <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/terminal.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1W9f4BixxaSy7OtMeoXfdhDVEQy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\пользователь\IdeaProjects\social_network\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\ProfileInfo" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts\Post" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Navbar" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Header" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -35,14 +131,75 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578566541702</updated>
-      <workItem from="1578566555880" duration="329000" />
+      <workItem from="1578566555880" duration="13387000" />
+      <workItem from="1578836044897" duration="802000" />
+      <workItem from="1578842177511" duration="537000" />
+      <workItem from="1578842745669" duration="8602000" />
+      <workItem from="1578856456709" duration="1453000" />
+      <workItem from="1578857948890" duration="21506000" />
+      <workItem from="1578990321819" duration="12781000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1578566716901">
+    <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578566716901" />
+    <state x="392" y="87" key="#ESLint/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578991815342" />
+    <state x="392" y="87" key="#Plugins" timestamp="1578842465157">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="392" y="87" key="#Plugins/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578842465157" />
+    <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1578843381701">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
+    <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578844941331" />
+    <state x="684" y="169" key="FileChooserDialogImpl" timestamp="1578857978538">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="684" y="169" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578857978538" />
+    <state width="794" height="198" key="GridCell.Tab.0.bottom" timestamp="1578989448891">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="794" height="198" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
+    <state width="794" height="198" key="GridCell.Tab.0.center" timestamp="1578989448891">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="794" height="198" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
+    <state width="794" height="198" key="GridCell.Tab.0.left" timestamp="1578989448890">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="794" height="198" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448890" />
+    <state width="794" height="198" key="GridCell.Tab.0.right" timestamp="1578989448891">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="794" height="198" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
+    <state x="405" y="46" key="SettingsEditor" timestamp="1578993373761">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578993373761" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1578990338039">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578990338039" />
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579024952160">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579024952160" />
+    <state x="456" y="190" key="run.anything.popup" timestamp="1578996249714">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578996249714" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578995545164">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578995545164" />
   </component>
 </project>
