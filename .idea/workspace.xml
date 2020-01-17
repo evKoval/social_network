@@ -2,31 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/terminal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/Profile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogItem/DialogItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/friends/Friend/Friend.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/friends/Friend/Friend.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/friends/Friends.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/friends/Friends.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/state.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +29,25 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,7 +75,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Profile/ProfileInfo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -77,21 +86,22 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\пользователь\IdeaProjects\social_network\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\ProfileInfo" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts\Post" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\redux" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Navbar" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Header" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Navbar\friends\Friend" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Dialogs\DialogItem" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Dialogs\Message" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\ProfileInfo" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -137,12 +147,28 @@
       <workItem from="1578842745669" duration="8602000" />
       <workItem from="1578856456709" duration="1453000" />
       <workItem from="1578857948890" duration="21506000" />
-      <workItem from="1578990321819" duration="12781000" />
+      <workItem from="1578990321819" duration="21326000" />
+      <workItem from="1579155782939" duration="22221000" />
+      <workItem from="1579201269701" duration="6724000" />
     </task>
+    <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
+      <created>1579025644537</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579025644537</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="basic structure created. Router, NavLink, props, map" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic structure created. Router, NavLink, props, map" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -157,6 +183,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
+    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579025640957">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579025640957" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -165,41 +195,45 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="169" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578857978538" />
-    <state width="794" height="198" key="GridCell.Tab.0.bottom" timestamp="1578989448891">
+    <state x="666" y="322" key="Github.ShareDialog" timestamp="1579027286211">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="794" height="198" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
-    <state width="794" height="198" key="GridCell.Tab.0.center" timestamp="1578989448891">
+    <state x="666" y="322" key="Github.ShareDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579027286211" />
+    <state width="1556" height="178" key="GridCell.Tab.0.bottom" timestamp="1579201052480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="794" height="198" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
-    <state width="794" height="198" key="GridCell.Tab.0.left" timestamp="1578989448890">
+    <state width="1556" height="178" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201052480" />
+    <state width="1556" height="178" key="GridCell.Tab.0.center" timestamp="1579201052480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="794" height="198" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448890" />
-    <state width="794" height="198" key="GridCell.Tab.0.right" timestamp="1578989448891">
+    <state width="1556" height="178" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201052480" />
+    <state width="1556" height="178" key="GridCell.Tab.0.left" timestamp="1579201052480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="794" height="198" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578989448891" />
-    <state x="405" y="46" key="SettingsEditor" timestamp="1578993373761">
+    <state width="1556" height="178" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201052480" />
+    <state width="1556" height="178" key="GridCell.Tab.0.right" timestamp="1579201052480">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578993373761" />
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1578990338039">
+    <state width="1556" height="178" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201052480" />
+    <state x="405" y="46" key="SettingsEditor" timestamp="1579026822595">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578990338039" />
+    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579201274543">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201274543" />
     <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579024952160">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579024952160" />
-    <state x="456" y="190" key="run.anything.popup" timestamp="1578996249714">
+    <state x="456" y="190" key="run.anything.popup" timestamp="1579033432015">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="456" y="190" key="run.anything.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578996249714" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1578995545164">
+    <state x="456" y="190" key="run.anything.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579033432015" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1579199277274">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578995545164" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579199277274" />
   </component>
 </project>

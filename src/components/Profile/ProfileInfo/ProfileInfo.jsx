@@ -4,7 +4,7 @@ import classes from "./ProfileInfo.module.css";
 const ProfileInfo = () => {
   return (
     <div>
-      <img
+      <img className={classes.headerImg}
         src="https://media.istockphoto.com/photos/ski-tracks-on-powder-snow-picture-id927859944"
         alt="background img"
       />

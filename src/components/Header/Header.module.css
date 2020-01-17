@@ -1,6 +1,11 @@
 .header {
     grid-area: h;
+    display: flex;
+    align-items: center;
     background-color: green;
+    font-size: 2rem;
+    line-height: 60px;
+    color: #00d8ff;
 }
 .header img {
     height: 60px;

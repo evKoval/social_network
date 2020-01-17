@@ -3,30 +3,37 @@ import classes from "./MyPosts.module.css";
 import Post from "./Post/Post";
 
 const MyPosts = props => {
-  let posts = [
-    { message: "My first post", likeCounter: 1 },
-    { message: "My 2nd post", likeCounter: 2 },
-    { message: "My 3rd post", likeCounter: 3 },
-    { message: "My 4th post", likeCounter: 4 }
-  ];
-
-  let postElements = posts.map(post => (
+  let postElements = props.posts.map(post => (
     <Post message={post.message} likeCounter={post.likeCounter} />
   ));
+
+  let newPostElement = React.createRef();
+  let addPost = () => {
+
+    props.addPost();
+  };
+
+  let onPostChange = () => {
+    let text = newPostElement.current.value;
+    props.updatePostText(text);
+  };
+
   return (
-    <div className={classes.postsBock}>
+    <div className={classes.postsBlock}>
       <h3>My posts</h3>
       <div>
         <div>
-          <textarea name="newPost" id="" cols="30" rows="10"></textarea>
+          <textarea
+            ref={newPostElement}
+            value={props.newPostText}
+            onChange={onPostChange}
+          />
         </div>
         <div>
-          <button>Add post</button>
+          <button onClick={addPost}>Add post</button>
         </div>
       </div>
-      <div className={classes.posts}>
-          {postElements}
-      </div>
+      <div className={classes.posts}>{postElements}</div>
     </div>
   );
 };
