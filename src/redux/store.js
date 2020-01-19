@@ -1,5 +1,6 @@
 import profileReducer from "./profileReducer";
 import dialogsReducer from "./dialogsReducer";
+import sidebarReducer from "./sidebarReducer";
 
 let store = {
   _state: {
@@ -26,7 +27,9 @@ let store = {
       ],
       newMessageBody: ""
     },
-    friendList: [{ name: "Anna" }, { name: "Andrei" }, { name: "Foma" }]
+    sidebar: {
+      friendList: [{ name: "Anna" }, { name: "Andrei" }, { name: "Foma" }]
+    }
   },
   _callSubscriber() {
     console.log("state changed");
@@ -40,8 +43,16 @@ let store = {
   },
 
   dispatch(action) {
-    profileReducer(this.getState().profilePage, action);
-    dialogsReducer(this.getState().dialogsPage, action);
+    this.getState().profilePage = profileReducer(
+      this.getState().profilePage,
+      action
+    );
+    this.getState().dialogsPage = dialogsReducer(
+      this.getState().dialogsPage,
+      action
+    );
+    this.getState().sidebar = sidebarReducer(this.getState().sidebar, action);
+
     this._callSubscriber(this.getState());
   }
 };
