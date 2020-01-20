@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import Profile from "./components/Profile/Profile";
-import Dialogs from "./components/Dialogs/Dialogs";
+import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import { BrowserRouter, Route } from "react-router-dom";
 
 const App = props => {
@@ -11,26 +11,11 @@ const App = props => {
     <BrowserRouter>
       <div className="app-wrapper">
         <Header />
-        <Navbar friendList={props.appState.sidebar.friendList} />
+        {/*<Navbar friendList={props.appState.sidebar.friendList} />*/}
+        <Navbar friendList={[]} />
         <div className="appWrapperContent">
-          <Route
-            path="/dialogs"
-            render={() => (
-              <Dialogs
-                state={props.appState.dialogsPage}
-                dispatch={props.dispatch}
-              />
-            )}
-          />
-          <Route
-            path="/profile"
-            render={() => (
-              <Profile
-                profilePage={props.appState.profilePage}
-                dispatch={props.dispatch}
-              />
-            )}
-          />
+          <Route path="/dialogs" render={() => <DialogsContainer />} />
+          <Route path="/profile" render={() => <Profile />} />
         </div>
       </div>
     </BrowserRouter>
