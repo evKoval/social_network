@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/usersReducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/benderPic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reduxStore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +57,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -136,7 +137,8 @@
       <workItem from="1578857948890" duration="21506000" />
       <workItem from="1578990321819" duration="21326000" />
       <workItem from="1579155782939" duration="22221000" />
-      <workItem from="1579201269701" duration="71365000" />
+      <workItem from="1579201269701" duration="73217000" />
+      <workItem from="1579634206870" duration="3602000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -180,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579542675297</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="users tab added">
+      <created>1579613741235</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579613741243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,13 +198,15 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="basic structure created. Router, NavLink, props, map" />
     <MESSAGE value="Basic Flux in newPost. &#10;Dumb state management through state.js, state[] callback f-ns thrown through props." />
     <MESSAGE value="Store + dispatch" />
     <MESSAGE value="dialogs with Flux, dialogs &amp; profile reducers" />
     <MESSAGE value="Redux, sidebar" />
     <MESSAGE value="react-redux: provider, connect, componentContainers return stateCopy" />
-    <option name="LAST_COMMIT_MESSAGE" value="react-redux: provider, connect, componentContainers return stateCopy" />
+    <MESSAGE value="users tab added" />
+    <option name="LAST_COMMIT_MESSAGE" value="users tab added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -210,10 +221,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579542672315">
+    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579613737214">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579542672315" />
+    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579613737214" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -226,34 +237,38 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="666" y="322" key="Github.ShareDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579027286211" />
-    <state width="1556" height="175" key="GridCell.Tab.0.bottom" timestamp="1579599584468">
+    <state width="1556" height="175" key="GridCell.Tab.0.bottom" timestamp="1579635902166">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579599584468" />
-    <state width="1556" height="175" key="GridCell.Tab.0.center" timestamp="1579599584468">
+    <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902166" />
+    <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
+    <state width="1556" height="175" key="GridCell.Tab.0.center" timestamp="1579635902165">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579599584468" />
-    <state width="1556" height="175" key="GridCell.Tab.0.left" timestamp="1579599584468">
+    <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902165" />
+    <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
+    <state width="1556" height="175" key="GridCell.Tab.0.left" timestamp="1579635902164">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579599584468" />
-    <state width="1556" height="175" key="GridCell.Tab.0.right" timestamp="1579599584468">
+    <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902164" />
+    <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579630524797" />
+    <state width="1556" height="175" key="GridCell.Tab.0.right" timestamp="1579635902165">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579599584468" />
+    <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902165" />
+    <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
     <state x="405" y="46" key="SettingsEditor" timestamp="1579026822595">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579542681306">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579613763298">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579542681306" />
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579201274543">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579613763298" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579634205709">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579201274543" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579634205709" />
     <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579252981802">
       <screen x="0" y="0" width="1600" height="860" />
     </state>

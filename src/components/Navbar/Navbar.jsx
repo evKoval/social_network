@@ -16,13 +16,13 @@ const Navbar = (props) => {
         <NavLink activeClassName={classes.activeLink} to="/users">Users</NavLink>
       </div>
       <div className={classes.item}>
-        <a>News</a>
+        News
       </div>
       <div className={classes.item}>
-        <a >Music</a>
+        Music
       </div>
       <div className={classes.item}>
-        <a>Settings</a>
+        Settings
       </div>
         <Friends friendList={props.friendList}/>
     </nav>
