@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/images/benderPic.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +135,8 @@
       <workItem from="1579155782939" duration="22221000" />
       <workItem from="1579201269701" duration="73217000" />
       <workItem from="1579634206870" duration="3602000" />
+      <workItem from="1579684385336" duration="616000" />
+      <workItem from="1579778158788" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -221,10 +219,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579613737214">
+    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579639044715">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579613737214" />
+    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579639044715" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -261,14 +259,16 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579613763298">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579639068472">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579613763298" />
-    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579634205709">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579639068472" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579778187253">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579634205709" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579778187253" />
+    <state x="501" y="252" key="com.intellij.ide.util.TipDialog/0.0.1600.860@0.0.1600.860" timestamp="1579684389030" />
     <state x="609" y="346" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579252981802">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
