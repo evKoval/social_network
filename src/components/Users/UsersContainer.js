@@ -1,12 +1,12 @@
 import { connect } from "react-redux";
 import Users from "./Users";
 import {
-  followAC,
-  setCurrentPageAC,
-  setTotalUsersCountAC,
-  setUsersAC,
-  toggleIsFetchingAC,
-  unfollowAC
+  follow,
+  setCurrentPage,
+  setTotalUsersCount,
+  setUsers,
+  toggleIsFetching,
+  unfollow
 } from "../../redux/usersReducer";
 import React from "react";
 import * as axios from "axios";
@@ -22,17 +22,17 @@ const mapStateToProps = state => {
   };
 };
 
-const mapDispatchToProps = dispatch => {
-  return {
-    follow: userId => dispatch(followAC(userId)),
-    unfollow: userId => dispatch(unfollowAC(userId)),
-    setUsers: users => dispatch(setUsersAC(users)),
-    setCurrentPage: pageNumber => dispatch(setCurrentPageAC(pageNumber)),
-    setTotalUsersCount: usersCount =>
-      dispatch(setTotalUsersCountAC(usersCount)),
-    toggleIsFetching: isFetching => dispatch(toggleIsFetchingAC(isFetching))
-  };
-};
+// const mapDispatchToProps = dispatch => {
+//     return {
+//         follow: userId => dispatch(followAC(userId)),
+//         unfollow: userId => dispatch(unfollowAC(userId)),
+//         setUsers: users => dispatch(setUsersAC(users)),
+//         setCurrentPage: pageNumber => dispatch(setCurrentPageAC(pageNumber)),
+//         setTotalUsersCount: usersCount =>
+//             dispatch(setTotalUsersCountAC(usersCount)),
+//         toggleIsFetching: isFetching => dispatch(toggleIsFetchingAC(isFetching))
+//     };
+// };
 
 class UsersContainer extends React.Component {
   componentDidMount() {
@@ -79,4 +79,11 @@ class UsersContainer extends React.Component {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(UsersContainer);
+export default connect(mapStateToProps, {
+  follow,
+  unfollow,
+  setUsers,
+  setCurrentPage,
+  setTotalUsersCount,
+  toggleIsFetching
+})(UsersContainer);
