@@ -1,5 +1,4 @@
 import React from "react";
-import * as axios from "axios";
 import defaultPhoto from "../../assets/images/benderPic.png";
 import classes from "./Users.module.css";
 

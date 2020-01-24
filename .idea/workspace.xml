@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Users/Users.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/Preloader/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
@@ -30,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -139,7 +140,7 @@
       <workItem from="1579634206870" duration="3602000" />
       <workItem from="1579684385336" duration="616000" />
       <workItem from="1579778158788" duration="12146000" />
-      <workItem from="1579848647936" duration="3585000" />
+      <workItem from="1579848647936" duration="9226000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -197,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579787491709</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="UsersContainer updated, Users to pure JSX component">
+      <created>1579852393000</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1579852393000</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +223,8 @@
     <MESSAGE value="react-redux: provider, connect, componentContainers return stateCopy" />
     <MESSAGE value="users tab added" />
     <MESSAGE value="Users changed to class component, call in constructor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Users changed to class component, call in constructor" />
+    <MESSAGE value="UsersContainer updated, Users to pure JSX component" />
+    <option name="LAST_COMMIT_MESSAGE" value="UsersContainer updated, Users to pure JSX component" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -230,11 +239,11 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579787488986">
+    <state x="395" y="23" key="CommitChangelistDialog2" timestamp="1579852389665">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579639044715" />
-    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579787488986" />
+    <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852389665" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -247,36 +256,40 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="666" y="322" key="Github.ShareDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579027286211" />
-    <state width="1556" height="175" key="GridCell.Tab.0.bottom" timestamp="1579635902166">
+    <state width="1556" height="175" key="GridCell.Tab.0.bottom" timestamp="1579852411637">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902166" />
+    <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852411637" />
     <state width="1556" height="175" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
-    <state width="1556" height="175" key="GridCell.Tab.0.center" timestamp="1579635902165">
+    <state width="1556" height="175" key="GridCell.Tab.0.center" timestamp="1579852411636">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902165" />
+    <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852411636" />
     <state width="1556" height="175" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
-    <state width="1556" height="175" key="GridCell.Tab.0.left" timestamp="1579635902164">
+    <state width="1556" height="175" key="GridCell.Tab.0.left" timestamp="1579852411635">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902164" />
+    <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852411635" />
     <state width="1556" height="175" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1579630524797" />
-    <state width="1556" height="175" key="GridCell.Tab.0.right" timestamp="1579635902165">
+    <state width="1556" height="175" key="GridCell.Tab.0.right" timestamp="1579852411637">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579635902165" />
+    <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852411637" />
     <state width="1556" height="175" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1579630524804" />
-    <state x="405" y="46" key="SettingsEditor" timestamp="1579808566529">
+    <state x="405" y="46" key="SettingsEditor" timestamp="1579861294625">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
-    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579808566529" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579787505159">
+    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579861294625" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1579852404948">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579639068472" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579787505159" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579852404948" />
     <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1579848648904">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
