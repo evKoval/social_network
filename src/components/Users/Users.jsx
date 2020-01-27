@@ -25,7 +25,7 @@ const Users = props => {
                                 props.onPageChanged(n);
                             }}
                         >
-              {n}*
+              {n+' '}
             </span>
                     );
                 })}
