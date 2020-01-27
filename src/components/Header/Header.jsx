@@ -1,7 +1,8 @@
 import React from "react";
-import classes from './Header.module.css'
+import classes from "./Header.module.css";
+import { NavLink } from "react-router-dom";
 
-const Header = () => {
+const Header = props => {
   return (
     <header className={classes.header}>
       <img
@@ -9,6 +10,9 @@ const Header = () => {
         alt="logo"
       />
       React social network
+      <div className={classes.loginBlock}>
+        {props.isAuth ? props.login : <NavLink to="/login">LogIn</NavLink>}
+      </div>
     </header>
   );
 };

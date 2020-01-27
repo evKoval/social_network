@@ -1,7 +1,8 @@
 .header {
     grid-area: h;
-    display: flex;
+    /*display: flex;*/
     align-items: center;
+    align-content: space-between;
     background-color: green;
     font-size: 2rem;
     line-height: 60px;
@@ -9,4 +10,13 @@
 }
 .header img {
     height: 60px;
+}
+
+.loginBlock{
+    float: right;
+    justify-self: flex-end;
+}
+
+.loginBlock a{
+    color: #00d8ff;
 }
