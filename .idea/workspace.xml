@@ -3,12 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatus.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/DialogsContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/dialogsReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/dialogsReducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reduxStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +145,7 @@
       <workItem from="1579848647936" duration="19432000" />
       <workItem from="1580115190602" duration="15532000" />
       <workItem from="1580231390298" duration="50438000" />
-      <workItem from="1580710666475" duration="3560000" />
+      <workItem from="1580710666475" duration="11640000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -272,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580475038271</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="updateStatus, global state status synced with ProfileStatus.jsx via componentDidUpdate">
+      <created>1580719700884</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1580719700885</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +308,8 @@
     <MESSAGE value="thunks thunks thunks!&#10;authAPI created, userAPI methods added," />
     <MESSAGE value="HOC withAuthRedirect, compose in containerComponents" />
     <MESSAGE value="ProfileStatus.jsx with local state" />
-    <option name="LAST_COMMIT_MESSAGE" value="ProfileStatus.jsx with local state" />
+    <MESSAGE value="updateStatus, global state status synced with ProfileStatus.jsx via componentDidUpdate" />
+    <option name="LAST_COMMIT_MESSAGE" value="updateStatus, global state status synced with ProfileStatus.jsx via componentDidUpdate" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -315,10 +324,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="600" y="7" key="CommitChangelistDialog2" timestamp="1580475037032">
+    <state x="600" y="7" key="CommitChangelistDialog2" timestamp="1580719696720">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="600" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580475037032" />
+    <state x="600" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580719696720" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895376334" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580153479579" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
@@ -333,28 +342,28 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="666" y="322" key="Github.ShareDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579027286211" />
-    <state width="1556" height="148" key="GridCell.Tab.0.bottom" timestamp="1580657491139">
+    <state width="1556" height="148" key="GridCell.Tab.0.bottom" timestamp="1580720794500">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="148" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580657491139" />
+    <state width="1556" height="148" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580720794500" />
     <state width="1556" height="244" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895455119" />
     <state width="1556" height="148" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1580153674785" />
-    <state width="1556" height="148" key="GridCell.Tab.0.center" timestamp="1580657491139">
+    <state width="1556" height="148" key="GridCell.Tab.0.center" timestamp="1580720794499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="148" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580657491139" />
+    <state width="1556" height="148" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580720794499" />
     <state width="1556" height="244" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895455119" />
     <state width="1556" height="148" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1580153674785" />
-    <state width="1556" height="148" key="GridCell.Tab.0.left" timestamp="1580657491138">
+    <state width="1556" height="148" key="GridCell.Tab.0.left" timestamp="1580720794499">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="148" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580657491138" />
+    <state width="1556" height="148" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580720794499" />
     <state width="1556" height="244" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895455119" />
     <state width="1556" height="148" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1580153674785" />
-    <state width="1556" height="148" key="GridCell.Tab.0.right" timestamp="1580657491139">
+    <state width="1556" height="148" key="GridCell.Tab.0.right" timestamp="1580720794500">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1556" height="148" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580657491139" />
+    <state width="1556" height="148" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580720794500" />
     <state width="1556" height="244" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895455119" />
     <state width="1556" height="148" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580153674785" />
     <state x="405" y="46" key="SettingsEditor" timestamp="1579861294625">
@@ -362,10 +371,10 @@
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579861294625" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580475043586">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580719710296">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580475043586" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580719710296" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895398887" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580153489638" />
     <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1580710757448">
@@ -387,14 +396,18 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="515" y="220" key="git4idea.merge.GitPullDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579253112842" />
+    <state x="441" y="145" width="700" height="530" key="recent.locations.popup" timestamp="1580722092962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="441" y="145" width="700" height="530" key="recent.locations.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580722092962" />
     <state x="456" y="190" key="run.anything.popup" timestamp="1579594839990">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="190" key="run.anything.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579594839990" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1580646572076">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1580730715023">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580646572076" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580730715023" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579808499986" />
   </component>
 </project>
