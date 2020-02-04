@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Dialogs/AddMessageForm/AddMessageForm.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/validators.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPostsContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/profileReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/profileReducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/common/FormsControls" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -71,22 +75,25 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\пользователь\IdeaProjects\social_network\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\common\FormsControls" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Header" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\redux" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts" />
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Dialogs" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Dialogs\AddMessageForm\AddMessageForm.jsx" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\redux" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Navbar" />
       <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Header" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Header" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\redux" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Profile\MyPosts" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src\components\Dialogs" />
-      <recent name="C:\Users\пользователь\IdeaProjects\social_network\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -141,7 +148,7 @@
       <workItem from="1579848647936" duration="19432000" />
       <workItem from="1580115190602" duration="15532000" />
       <workItem from="1580231390298" duration="50438000" />
-      <workItem from="1580710666475" duration="15443000" />
+      <workItem from="1580710666475" duration="24493000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -283,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580752555515</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="newPost reduxForm">
+      <created>1580756627813</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1580756627813</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -313,7 +327,8 @@
     <MESSAGE value="ProfileStatus.jsx with local state" />
     <MESSAGE value="updateStatus, global state status synced with ProfileStatus.jsx via componentDidUpdate" />
     <MESSAGE value="login+messages reduxForm" />
-    <option name="LAST_COMMIT_MESSAGE" value="login+messages reduxForm" />
+    <MESSAGE value="newPost reduxForm" />
+    <option name="LAST_COMMIT_MESSAGE" value="newPost reduxForm" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -328,10 +343,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="535" y="7" key="CommitChangelistDialog2" timestamp="1580752551135">
+    <state x="535" y="7" key="CommitChangelistDialog2" timestamp="1580756625415">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="535" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580752551135" />
+    <state x="535" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580756625415" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895376334" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580153479579" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
@@ -370,15 +385,15 @@
     <state width="1556" height="148" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580720794500" />
     <state width="1556" height="244" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895455119" />
     <state width="1556" height="148" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1580153674785" />
-    <state x="405" y="46" key="SettingsEditor" timestamp="1579861294625">
+    <state x="405" y="46" key="SettingsEditor" timestamp="1580814248156">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579026822595" />
+    <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580814248156" />
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579861294625" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580752564811">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580756632592">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580752564811" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580756632592" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895398887" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580153489638" />
     <state x="501" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1580710757448">
@@ -408,10 +423,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="456" y="190" key="run.anything.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1579594839990" />
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1580753925616">
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1580814111995">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580753925616" />
+    <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580814111995" />
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579808499986" />
   </component>
 </project>
