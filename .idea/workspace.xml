@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/appReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Login/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/FormsControls/FormsControls.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/authReducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/authReducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reduxStore.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reduxStore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +142,7 @@
       <workItem from="1579848647936" duration="19432000" />
       <workItem from="1580115190602" duration="15532000" />
       <workItem from="1580231390298" duration="50438000" />
-      <workItem from="1580710666475" duration="56657000" />
+      <workItem from="1580710666475" duration="56957000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -314,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580843517043</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="stopSubmit, initialize App">
+      <created>1580982275262</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1580982275262</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -347,7 +345,8 @@
     <MESSAGE value="newPost reduxForm" />
     <MESSAGE value="validators added for all Fields in reduxForms" />
     <MESSAGE value="login/logout API" />
-    <option name="LAST_COMMIT_MESSAGE" value="login/logout API" />
+    <MESSAGE value="stopSubmit, initialize App" />
+    <option name="LAST_COMMIT_MESSAGE" value="stopSubmit, initialize App" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -362,10 +361,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="535" y="7" key="CommitChangelistDialog2" timestamp="1580843514124">
+    <state x="535" y="7" key="CommitChangelistDialog2" timestamp="1580982270590">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="535" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580843514124" />
+    <state x="535" y="7" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580982270590" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895376334" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580153479579" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
@@ -409,10 +408,10 @@
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580814248156" />
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579861294625" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580843527978">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1580982401976">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580843527978" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580982401976" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895398887" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580153489638" />
     <state x="104" y="95" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580982238258">
