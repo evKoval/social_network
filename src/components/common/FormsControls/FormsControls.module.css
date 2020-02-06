@@ -7,3 +7,9 @@
     font-weight: bold;
     color: indianred;
 }
+
+.formSummaryError {
+    border: 2px solid orangered;
+    color: orangered;
+    display: inline-block;
+}

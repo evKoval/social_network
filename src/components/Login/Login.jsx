@@ -5,6 +5,7 @@ import {required} from "../../utils/validators";
 import {connect} from "react-redux";
 import {login} from "../../redux/authReducer";
 import {Redirect} from "react-router-dom";
+import styles from "../common/FormsControls/FormsControls.module.css"
 
 const LoginForm = props => {
     return (
@@ -16,6 +17,9 @@ const LoginForm = props => {
             <div>
                 <button>Login</button>
             </div>
+            {props.error && <div className={styles.formSummaryError}>
+                {props.error}
+            </div>}
         </form>)
 
 }
@@ -25,6 +29,7 @@ const LoginReduxForm = reduxForm({form: 'login'})(LoginForm)
 const Login = props => {
     const onSubmit = (formData) => {
         props.login(formData.email, formData.password, formData.rememberMe);
+        console.log(formData.rememberMe);
     }
 
     if (props.isAuth) {
