@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3cae6c8-30f9-4cd5-87eb-76693ca4c5b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileStatusWithHooks.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +144,7 @@
       <workItem from="1580115190602" duration="15532000" />
       <workItem from="1580231390298" duration="50438000" />
       <workItem from="1580710666475" duration="62902000" />
-      <workItem from="1581001566656" duration="13998000" />
+      <workItem from="1581001566656" duration="17333000" />
     </task>
     <task id="LOCAL-00001" summary="basic structure created. Router, NavLink, props, map">
       <created>1579025644537</created>
@@ -342,7 +342,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581059394572</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Hook - useState in profileStatus">
+      <created>1581079609740</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1581079609740</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +359,6 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="dialogs with Flux, dialogs &amp; profile reducers" />
     <MESSAGE value="Redux, sidebar" />
     <MESSAGE value="react-redux: provider, connect, componentContainers return stateCopy" />
     <MESSAGE value="users tab added" />
@@ -377,7 +383,8 @@
     <MESSAGE value="initialize in object App, Redux store persists on page refresh" />
     <MESSAGE value="DIY usersSelectors, current page highlighting fixed" />
     <MESSAGE value="usersSelectors with Reselect library (e.g. fake data processing)" />
-    <option name="LAST_COMMIT_MESSAGE" value="usersSelectors with Reselect library (e.g. fake data processing)" />
+    <MESSAGE value="Hook - useState in profileStatus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hook - useState in profileStatus" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="87" key="#ESLint" timestamp="1578991815342">
@@ -392,10 +399,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="684" y="119" key="#com.intellij.ide.macro.MacrosDialog/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1578843381701" />
-    <state x="432" y="46" key="CommitChangelistDialog2" timestamp="1581059392501">
+    <state x="432" y="46" key="CommitChangelistDialog2" timestamp="1581079607744">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="432" y="46" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1581059392501" />
+    <state x="432" y="46" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1581079607744" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895376334" />
     <state x="395" y="23" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1580153479579" />
     <state x="563" y="192" width="682" height="632" key="EditFileWatcherDialog" timestamp="1578844941331">
@@ -439,10 +446,10 @@
     </state>
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1580814248156" />
     <state x="405" y="46" key="SettingsEditor/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579861294625" />
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1581059401941">
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2" timestamp="1581079617240">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1581059401941" />
+    <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1440.900@0.0.1600.860" timestamp="1581079617240" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1579895398887" />
     <state x="392" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860@0.0.1600.860" timestamp="1580153489638" />
     <state x="104" y="95" width="1416" height="676" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580990310464">
