@@ -11,7 +11,13 @@ const Header = props => {
       />
       React social network
       <div className={classes.loginBlock}>
-        {props.isAuth ? <div>{props.login} <button onClick={props.logout}>LogOut</button> </div> : <NavLink to="/login">LogIn</NavLink>}
+        {props.isAuth ? (
+          <div>
+            {props.login} <button onClick={props.logout}>LogOut</button>{" "}
+          </div>
+        ) : (
+          <NavLink to="/login">LogIn</NavLink>
+        )}
       </div>
     </header>
   );
