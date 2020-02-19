@@ -27,7 +27,7 @@ const ProfileInfo = ({ profile, status, updateStatus, isOwner, savePhoto, savePr
 
   return (
     <div className={classes.descriptionBlock}>
-      <img src={profile.photos.large || defaultPhoto} alt="" className={classes.mainPhoto} />
+      <img src={profile.photos.large || defaultPhoto} alt="" className={classes.mainPhoto} /><br></br>
       {isOwner && (
         <input
           type="file"

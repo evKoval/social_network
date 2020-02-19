@@ -71,9 +71,13 @@ export const getStatus = userID => async dispatch => {
   dispatch(setStatus(response.data));
 };
 export const updateStatus = status => async dispatch => {
-  const response = await profileAPI.updateStatus(status);
-  if (response.data.resultCode === 0) {
-    dispatch(setStatus(status));
+  try {
+    const response = await profileAPI.updateStatus(status);
+    if (response.data.resultCode === 0) {
+      dispatch(setStatus(status));
+    }
+  } catch (error) {
+    // alert(error);
   }
 };
 
@@ -92,7 +96,7 @@ export const saveProfile = profile => async (dispatch, getState) => {
   } else {
     dispatch(stopSubmit("editProfile", { _error: response.data.messages[0] }));
     // dispatch(stopSubmit("editProfile", { contacts: { facebook: response.data.messages[0] } }));
-    return Promise.reject(response.data.messages[0])
+    return Promise.reject(response.data.messages[0]);
   }
 };
 
