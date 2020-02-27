@@ -9,7 +9,7 @@ const Header = props => {
         src="https://www.iconninja.com/ico/128/react-js-react-logo-js-11722.ico"
         alt="logo"
       />
-      React social network
+       React social network 
       <div className={classes.loginBlock}>
         {props.isAuth ? (
           <div>

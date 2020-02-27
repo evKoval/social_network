@@ -1,8 +1,8 @@
 .header {
     grid-area: h;
-    /*display: flex;*/
-    align-items: center;
-    align-content: space-between;
+    display: flex;
+    /* align-items: center; */
+    align-content: space-around;
     background-color: green;
     font-size: 2rem;
     line-height: 60px;
@@ -12,8 +12,13 @@
     height: 60px;
 }
 
+.headerText{
+    display: inline-block;
+    line-height: 60px;
+}
+
 .loginBlock{
-    float: right;
+    margin-left: auto;
     justify-self: flex-end;
 }
 

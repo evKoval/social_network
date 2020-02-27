@@ -10,8 +10,8 @@ import styles from "../common/FormsControls/FormsControls.module.css";
 const LoginForm = ({ handleSubmit, error, captchaUrl }) => {
   return (
     <form onSubmit={handleSubmit}>
-      {createField("Email", "email", [required], Input)}
-      {createField("Password", "password", [required], Input, {
+      {createField("free@samuraijs.com", "email", [required], Input)}
+      {createField("free", "password", [required], Input, {
         type: "password"
       })}
       {createField(null, "rememberMe", [], Input, { type: "checkbox" }, "remember me")}
